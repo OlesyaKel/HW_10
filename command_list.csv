@@ -1,0 +1,43 @@
+    1  q
+    2  ls
+    3  .bash_history
+    4  clear
+    5  git config --global user.name "Olesya"
+    6  git config -- global user.email "r.sugar4955@gmail.com"
+    7  git config --global user.email "r.sugar4955@gmail.com"
+    8  git clone https://github.com/OlesyaKel/HW_10.git 
+    9  cd /c/Users/User/Downloads/MyIT/Repozitor/HW_10
+   10  touch text_ignore.txt
+   11  nano .gitignore
+   12  git status
+   13  git add .
+   14  git status
+   15  git commit -m "Add test file"
+   16  touch main_test.txt
+   17  git add .
+   18  git commit -m "Task 2"
+   19  git status
+   20  git push
+   21  git checkout -b branch "develop"
+   22  git brunch
+   23  git branch
+   24  git checkout -b branch_develop
+   25  git branch -d branch_develop
+   26  git checkout main
+   27  git branch -d branch_develop
+   28  git checkout -b develop
+   29  touch develop_test.txt
+   30  git add
+   31  git add .
+   32  git commit -m "Task 3"
+   33  nano develop_test.txt
+   34  git status
+   35  git add .
+   36  git commit -m
+   37  git commit -m "Task 3.1"
+   38  git checkout main
+   39  git merge develop
+   40  git branch
+   41  git checkout develop
+   42  git log
+   43  history>command_list.csv
